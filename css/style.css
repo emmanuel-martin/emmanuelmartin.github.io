@@ -1,41 +1,7 @@
 @charset "UTF-8";
-/*
-Template Name: Bolby
-Version: 1.0
-Author: PxlSolutions
-Author URI: http://themeforest.net/user/pxlsolutions
-Description: Portfolio/CV/Resume HTML Template
 
-[TABLE OF CONTENTS]
-
-01. Base
-02. Typography
-03. Preloader
-04. Header
-05. Sections
-06. Parallax Shapes
-07. Skills
-08. Service
-09. Portfolio
-10. Facts
-11. Prices
-12. Testimonials
-13. Blog
-14. Clients
-15. Contact
-16. Helper
-17. Dark Mode
-18. Buttons
-19. Bootstrap Components
-20. Theme elements
-21. Slick
-22. Responsive
-
-*/
 @import url("https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i&display=swap&subset=cyrillic");
-/*=================================================================*/
-/*                      BASE                              
-/*=================================================================*/
+
 * {
   margin: 0;
   padding: 0;
@@ -78,9 +44,7 @@ img {
   position: relative;
 }
 
-/*=================================================================*/
-/*                      TYPOGRAPHY                              
-/*=================================================================*/
+
 h1, h2, h3, h4, h5, h6 {
   color: #454360;
   font-family: "Rubik", sans-serif;
@@ -146,9 +110,7 @@ pre {
   border-radius: 0;
 }
 
-/*=================================================================*/
-/*                      PRELOADER                              
-/*=================================================================*/
+
 .infinity {
   width: 120px;
   height: 60px;
@@ -325,9 +287,6 @@ pre {
   display: none;
 }
 
-/*=================================================================*/
-/*                      HEADER                              
-/*=================================================================*/
 header.desktop-header-1 {
   color: #FFF;
   border-right: solid 1px rgba(255, 255, 255, 0.1);
@@ -771,9 +730,6 @@ header.mobile-header-2 .site-logo img {
   color: #353353;
 }
 
-/*=================================================================*/
-/*                      SECTIONS                             
-/*=================================================================*/
 main.content {
   margin-left: 290px;
   -webkit-transition: all 0.3s ease-in-out;
@@ -866,9 +822,6 @@ section.home.light .social-icons li a:hover {
   width: 37px;
 }
 
-/*=================================================================*/
-/*                      PARALLAX SHAPES                              
-/*=================================================================*/
 .parallax {
   position: absolute;
   left: 0;
@@ -924,9 +877,6 @@ section.home.light .social-icons li a:hover {
   right: 10%;
 }
 
-/*=================================================================*/
-/*                      SKILLS                              
-/*=================================================================*/
 .skill-item .skill-info h4 {
   font-size: 16px;
   font-weight: 500;
@@ -935,9 +885,6 @@ section.home.light .social-icons li a:hover {
   font-size: 14px;
 }
 
-/*=================================================================*/
-/*                      SERVICE                              
-/*=================================================================*/
 .service-box {
   -webkit-transform: translateY(0);
   -ms-transform: translateY(0);
@@ -958,9 +905,6 @@ section.home.light .social-icons li a:hover {
   transform: translateY(-10px);
 }
 
-/*=================================================================*/
-/*                      PORTFOLIO                              
-/*=================================================================*/
 .portfolio-wrapper [class*=col-] {
   margin-top: 15px;
   margin-bottom: 15px;
@@ -1096,9 +1040,6 @@ select.portfolio-filter-mobile {
   color: #000;
 }
 
-/*=================================================================*/
-/*                      FACTS                              
-/*=================================================================*/
 .fact-item .details {
   margin-left: 60px;
 }
@@ -1117,9 +1058,6 @@ select.portfolio-filter-mobile {
   font-size: 16px;
 }
 
-/*=================================================================*/
-/*                      PRICES                              
-/*=================================================================*/
 .price-item {
   padding: 30px 40px;
 }
@@ -1172,9 +1110,6 @@ select.portfolio-filter-mobile {
   border-bottom-right-radius: 0;
 }
 
-/*=================================================================*/
-/*                      TESTIMONIALS                              
-/*=================================================================*/
 .testimonials-wrapper {
   max-width: 700px;
   margin: auto;
@@ -1197,9 +1132,6 @@ select.portfolio-filter-mobile {
   font-size: 16px;
 }
 
-/*=================================================================*/
-/*                      BLOG                              
-/*=================================================================*/
 .blog-item {
   overflow: hidden;
   -webkit-transform: translateY(0);
@@ -1276,9 +1208,6 @@ select.portfolio-filter-mobile {
   display: none;
 }
 
-/*=================================================================*/
-/*                      CLIENTS                              
-/*=================================================================*/
 .client-item {
   min-height: 50px;
   position: relative;
@@ -1299,9 +1228,7 @@ select.portfolio-filter-mobile {
   display: inline-block;
 }
 
-/*=================================================================*/
-/*                      CONTACT                              
-/*=================================================================*/
+
 .contact-info {
   background-image: url("../images/map.svg");
   background-repeat: no-repeat;
@@ -1313,9 +1240,6 @@ select.portfolio-filter-mobile {
   margin: 0 0 10px;
 }
 
-/*=================================================================*/
-/*                      HELPER                              
-/*=================================================================*/
 .help-block.with-errors {
   color: red;
   font-size: 12px;
@@ -1466,9 +1390,6 @@ footer.footer.light {
   border-top: solid 1px rgba(0, 0, 0, 0.05);
 }
 
-/*=================================================================*/
-/*                      DARK MODE                              
-/*=================================================================*/
 body.dark {
   color: #FFF;
   background-color: #353353;
@@ -1516,9 +1437,6 @@ body.dark footer.footer {
   border-top: solid 1px rgba(255, 255, 255, 0.1);
 }
 
-/*=================================================================*/
-/*                     BUTTONS
-/*=================================================================*/
 .btn {
   border-radius: 30px;
   font-family: "Rubik", sans-serif;
@@ -1608,9 +1526,7 @@ body.dark footer.footer {
   cursor: not-allowed;
 }
 
-/*=================================================================*/
-/*                     BOOTSTRAP ELEMENTS
-/*=================================================================*/
+
 .breadcrumb {
   font-size: 14px;
   padding: 0;
@@ -1675,12 +1591,10 @@ body.dark footer.footer {
 }
 
 .form-control::-webkit-input-placeholder {
-  /* Edge */
   color: #AEACCA;
 }
 
 .form-control:-ms-input-placeholder {
-  /* Internet Explorer 10-11 */
   color: #AEACCA;
 }
 
@@ -1719,7 +1633,6 @@ body.dark footer.footer {
   color: inherit;
 }
 
-/* === Pagination === */
 .pagination {
   display: inline-block;
   padding-left: 0;
@@ -1771,9 +1684,7 @@ body.dark footer.footer {
   border-color: transparent;
 }
 
-/*=================================================================*/
-/*                      THEME ELEMENTS
-/*=================================================================*/
+
 /* === Timeline === */
 .timeline {
   position: relative;
